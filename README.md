@@ -4,9 +4,9 @@ Shopping cart project build with Node and Express using a file data store.
 
 ###### Shopping Cart Features
 
-1 Admin signup, authentication, and manage products.
-2 User product list and add to cart
-3 Data file store
+- Admin signup, authentication, and manage products.
+- User product list and add to cart
+- Data file store
 
 ###### Other Modules
 
