@@ -1,8 +1,6 @@
 ## NodeJs and Express Shopping Cart Project
 
-Shopping Cart Features
-1 Admin signup, authentication, and manage products.
-2 User product list and add to cart
+Shopping cart project build with Node and Express using a file data store.
 
 ###### Shopping Cart Features
 
