@@ -54,8 +54,9 @@ router.get("/cart", async (req, res) => {
     if (product) {
       item.product = product; // nested for display and passed as argument to template only.
     } else {
-      console.log("hrere", item); // { id: '0c1b7412', quantity: 1 }
-      console.log("thre", cart); // thre { items: [ { id: '0c1b7412', quantity: 1 } ], id: '932b6b5f' }
+      // console.log(item); // { id: '0c1b7412', quantity: 1 }
+      // console.log(cart); // { items: [ { id: '0c1b7412', quantity: 1 } ], id: '932b6b5f' }
+
       item.product = {
         title: `Item ${item.id} - No longer available`,
         price: 0,
